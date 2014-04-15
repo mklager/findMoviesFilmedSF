@@ -3,7 +3,7 @@ $(document).ready(function() {
     var suggesion_box = $("#suggesion_box");
     var movies = [];
     $.ajax({// get the titles from the database
-        url: "/findMovieFilmedSF/movies/get_titles",
+        url: "/findMoviesFilmedSF/movies/get_titles",
         success: function(data) {
             var obj = jQuery.parseJSON(data);
             get_movies(obj.movies);
@@ -78,7 +78,7 @@ var markers = [];
 function get_locations() {
     var title = $('#movie').val();
     //get locations from the database
-    $.post("/findMovieFilmedSF/movies/get_locations", {title: title})
+    $.post("/findMoviesFilmedSF/movies/get_locations", {title: title})
             .done(function(data) {
                 var obj = jQuery.parseJSON(data);
                 var centerLatlng = new google.maps.LatLng(37.766813, -122.455998);

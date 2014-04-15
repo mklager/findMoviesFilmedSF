@@ -55,7 +55,9 @@ class MoviesController extends AppController {
 
     /**
      * Imports all data about movies to the database.
-     * It was used in initial step to import data.
+     * in order to work properly with Google Map API the 
+     * addresses had been converted to latitude/longitude manualy.
+     * The SQL dump is attached to the project.
      */
     function import_movies() {
         $json = file_get_contents("http://data.sfgov.org/resource/yitu-d5am.json");

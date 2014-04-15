@@ -21,13 +21,13 @@
         <div id="wrapper">
             <input type="text" id="movie" placeholder="Just start typing">
             <input id="search" onclick="get_locations()"  type="image" src="/findMoviesFilmedSF/app/webroot/img/search_out.png" 
-                   onMouseOver="this.src = '/findMovieFilmedSF/app/webroot/img/search_in.png'" 
-                   onMouseOut="this.src = '/findMovieFilmedSF/app/webroot/img/search_out.png'"alt="Search" >
+                   onMouseOver="this.src = '/findMoviesFilmedSF/app/webroot/img/search_in.png'" 
+                   onMouseOut="this.src = '/findMoviesFilmedSF/app/webroot/img/search_out.png'"alt="Search" >
             <div id="suggesion_box" ></div>
         </div>
         <input onclick="deleteMarkers();" type="image" src="/findMoviesFilmedSF/app/webroot/img/clear_out.png" 
-               onMouseOver="this.src = '/findMovieFilmedSF/app/webroot/img/clear_in.png'" 
-               onMouseOut="this.src = '/findMovieFilmedSF/app/webroot/img/clear_out.png'"alt="Delete Markers" >
+               onMouseOver="this.src = '/findMoviesFilmedSF/app/webroot/img/clear_in.png'" 
+               onMouseOut="this.src = '/findMoviesFilmedSF/app/webroot/img/clear_out.png'"alt="Delete Markers" >
         <div id="map-canvas"/></div>
 
 </body>
