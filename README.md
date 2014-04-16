@@ -6,9 +6,8 @@ but it gives flexibility to extend the code and easily add some features
 in the future. I'm more comfortable with backend so I decided to explore some
 front end areas just for fun.
 
-In order to use Google Map API I had to convert the addresses to latitude/longitude
-manually because of it the better way to to get database is to deploy it from 
-the file findMovieFilmedSF.sql which is attached to the project.
+Right now the database can be created manually and populated using import_movies()
+function. Just to simplify the process I've attached SQL dump file(findMovieFilmedSF.sql).
 
 This project features quite simple front end design and minimal UI. It definitely
 can be modified to provide more complex functionality. 
